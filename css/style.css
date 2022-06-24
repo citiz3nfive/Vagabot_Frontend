@@ -52,7 +52,7 @@ Primary Color: #E48632;
 /* --------------------------- /////////// I. GENERAL /////////// --------------------------- */
 /* -Color- */
 .colored {
-    color: #E48632;
+    color: #ffffff;
 }
 /* -Link Styling- */
 a {
@@ -373,7 +373,7 @@ button {
 /* --------------------------- /////////// IV. HERO SECTION /////////// --------------------------- */
 /* -Hero Image- */
 .hero-unit {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hero.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hero1.jpg);
     background-size: cover;
     background-position: center;
     min-height: 720px;
@@ -384,7 +384,7 @@ button {
     display: block;
     position: relative;
     margin-top: 40vh;
-    color: #FFF;
+    color: rgb(0, 0, 0);
 	text-shadow: none; 
     padding: 20px;
     z-index: 5;
