@@ -880,7 +880,7 @@ button {
 /* --------------------------- /////////// XII. RESPONSIVE STYLES /////////// --------------------------- */
 @media (max-width : 991px) {
     .nav-item > a::first-letter {
-    color: #E48632;
+    color: #000000;
     }
     .navbar-dark {
         background-color: rgba(0,0,0,0.4); /* navbar background gradient */
