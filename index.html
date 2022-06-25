@@ -131,7 +131,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <p class="small-margin">We are a dedicated team of developers, designers, engineers, programmers, and most importantly gaming enthusiasts. The team are commited to making your gaming experience streamlined and seemless when it comes to spinning up your favorite games & servers in a matter of seconds. </p>
-                    <img id="awards" src="images/awards.png" class="img-fluid" alt="awads">
+                    <img id="awards" src="#" class="img-fluid" alt="awards">
                 </div>
                 <div class="col-md-6">
                     <img id="support-image" src="images/placeholder.jpg" data-src="images/about.jpg" class="img-fluid b-lazy" alt="digital collage">
@@ -143,7 +143,7 @@
             <a href="games"></a><!-- Nav Anchor -->
             <div class="row heading tiny-margin">
                 <div class="col-md-auto">
-                    <h1 class="animation-element slide-down">OUR <span class="colored">GAMES</span></h1>
+                    <h1 class="animation-element slide-down"><span class="colored">GAMES</span></h1>
                 </div>
                 <div class="col">
                     <hr class="animation-element extend">
@@ -164,61 +164,68 @@
                 </div>
             </div>
             <div class="games-portfolio ">
-                <!-- Game Card Video -->
-                <div class="row game-card pc new">
+                <!-- Game Card -->
+                <div class="row game-card pc">
                     <div class="col-lg-12 col-xl-5 game-card-left">
-                        <a href="#" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
+                        <a href="images/game_large.jpg" data-lightbox="screenshots_aurora">
                             <div class="overlay">
-                                <i class="fa fa-play fa-3x"></i>
+                                <i class="fa fa-picture-o fa-3x"></i>
                             </div>
-                            <img src="images/placeholder.jpg" data-src="images/game.jpg" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
+                            <picture>
+                                <source media="(min-width: 1200px)" srcset="images/dod1.jpg">
+                                <source media="(min-width: 768px)" srcset="images/dod1.1.jpg">
+                                <img src="images/dod1.jpg" data-src="images/dod1.jpg" class="img-fluid b-lazy" alt="aurora image">
+                            </picture>
                         </a>
+                        <a href="images/game_large.jpg" data-lightbox="screenshots_aurora"></a>
+                        <a href="images/game_large.jpg" data-lightbox="screenshots_aurora"></a>
                     </div>
                     <div class="col-lg-12 col-xl-7 game-card-right">
-                        <h2 class="short-hr-left">SWORDS &amp; SCLAES - DRAGON RISING</h2>
-                        <p class="tags"><span class="subtle">Action RPG | PC</span> </p>
-                        <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
+                        <h2 class="short-hr-left">Day of Defeat - Source</h2>
+                        <p class="tags"><span class="subtle">Action FPS | PC</span> </p>
+                        <p class="game-description">Day of Defeat offers intense online action gameplay set in Europe during WWII. Assume the role of infantry, sniper or machine-gunner classes, and more. DoD:S features enhanced graphics and sounds design to leverage the power of Source, Valve's new engine technology. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
                         <div class="steam-btn">
-                            <a href="#">
+                            <a href="https://store.steampowered.com/app/300/Day_of_Defeat_Source/" target="_blank">
                                 <i class="fa fa-steam fa-3x"></i>
                                 <p>GET IT ON <br><span class="spaced">STEAM</span></p>
                             </a>
                         </div>
                         <div class="reviews">
                             <a href="#"><div class="score-card">
-                                <p class="score">8.0</p>
+                                <p class="score">8.5</p>
                                 <p>Gamespot</p>
                             </div></a>
                             <a href="#"><div class="score-card">
-                                <p class="score">7.9</p>
+                                <p class="score">8.1</p>
                                 <p>IGN</p>
                             </div></a>
                             <a href="#"><div class="score-card">
-                                <p class="score">86</p>
+                                <p class="score">80</p>
                                 <p>Metacritic</p>
                             </div></a>
                         </div>
                     </div>
                     <!-- Modal -->
-                    <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
+                    <div class="modal fade game-modal" id="game3" tabindex="-1" role="dialog" aria-labelledby="dod" aria-hidden="true">
                         <div class="modal-dialog modal-lg" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h1 class="modal-title" id="scales">SWORDS &amp; SCALES</h1>
+                                    <h1 class="modal-title" id="dod">Day of Defeat - Source</h1>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
                                <div class="modal-body">
-                                   <h2 class="short-hr-left">TEAM UP AND FIGHT DRAGONS</h2>
+                                   <iframe class="modal-vid" src="https://www.youtube.com/embed/DPBW_MFqeRs?rel=0&amp;showinfo=0" allowfullscreen></iframe>
+                                   <h2 class="short-hr-left">EXPLORE AN EXPANSIVE WORLD</h2>
                                    <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
                                    <img class="img-fluid" src="images/game_large.jpg" alt="screenshot">
                                    <br>
-                                   <h2 class="short-hr-left">MAKE FRIENDS</h2>
+                                   <h2 class="short-hr-left">ADAPT AND DEVELOP YOUR CHARACTER</h2>
                                    <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
                                    <img class="img-fluid" src="images/game_large.jpg" alt="screenshot">
                                    <br>
-                                   <h2 class="short-hr-left">TRAIN YOUR DRAGON</h2>
+                                   <h2 class="short-hr-left">GET IMMERSED IN A DEEP STORY</h2>
                                    <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
                                 </div>
                                 <div class="modal-footer">
@@ -227,61 +234,70 @@
                             </div>
                         </div>
                      </div>
-                </div><!-- Game Card End -->
-                
-                <!-- Game Card Video -->
-                <div class="row game-card mobile new">
+                </div><!-- Game Card End --> 
+
+                <!-- Game Card -->
+                <div class="row game-card pc">
                     <div class="col-lg-12 col-xl-5 game-card-left">
-                        <a href="#" class="js-video-button" data-video-id='285232623' data-channel="vimeo"> <!-- Video link goes here -->
+                        <a href="images/game_large.jpg" data-lightbox="screenshots_aurora">
                             <div class="overlay">
-                                <i class="fa fa-play fa-3x"></i>
+                                <i class="fa fa-picture-o fa-3x"></i>
                             </div>
-                            <img src="images/placeholder.jpg" data-src="images/game.jpg" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
+                            <picture>
+                                <source media="(min-width: 1200px)" srcset="images/csgo1.jpg">
+                                <source media="(min-width: 768px)" srcset="images/csgo1.jpg">
+                                <img src="images/csgo1.jpg" data-src="images/csgo1.jpg" class="img-fluid b-lazy" alt="aurora image">
+                            </picture>
                         </a>
+                        <a href="images/game_large.jpg" data-lightbox="screenshots_aurora"></a>
+                        <a href="images/game_large.jpg" data-lightbox="screenshots_aurora"></a>
                     </div>
                     <div class="col-lg-12 col-xl-7 game-card-right">
-                        <h2 class="short-hr-left">BEDLAMBORNE</h2>
-                        <p class="tags"><span class="subtle">Horror Adventure | Mobile</span> </p>
-                        <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game2">Read More</span></p>
-                        <a href="#" class="button-store">
-                            <i class="fa fa-android fa-2x"></i>
-                            <p>Available on<br><span class="strong">Google Play</span></p>
-                        </a>
-                        <a href="#" class="button-store">
-                            <i class="fa fa-apple fa-2x"></i>
-                            <p>Available on<br><span class="strong">Apple Store</span></p>
-                       </a>
-                        <div class="rating">
-                            <p class="strong">4.5</p>
-                            <ul>
-                                <li><i class="fa fa-star colored"></i></li>
-                                <li><i class="fa fa-star colored"></i></li>
-                                <li><i class="fa fa-star colored"></i></li>
-                                <li><i class="fa fa-star colored"></i></li>
-                                <li><i class="fa fa-star-o"></i></li>
-                            </ul>
+                        <h2 class="short-hr-left">Counter Strike - Global Offensive</h2>
+                        <p class="tags"><span class="subtle">Action FPS | PC</span> </p>
+                        <p class="game-description">Counter-Strike took the gaming industry by surprise when the unlikely MOD became the most played online PC action game in the world almost immediately after its release in August 1999," said Doug Lombardi at Valve. "For the past 12 years, it has continued to be one of the most-played games in the world, headline competitive gaming tournaments and selling over 25 million units worldwide across the franchise. CS: GO promises to expand on CS' award-winning gameplay and deliver it to gamers on the PC as well as the next gen consoles and the Mac. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
+                        <div class="steam-btn">
+                            <a href="https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/" target="_blank">
+                                <i class="fa fa-steam fa-3x"></i>
+                                <p>GET IT ON <br><span class="spaced">STEAM</span></p>
+                            </a>
+                        </div>
+                        <div class="reviews">
+                            <a href="#"><div class="score-card">
+                                <p class="score">8.5</p>
+                                <p>Gamespot</p>
+                            </div></a>
+                            <a href="#"><div class="score-card">
+                                <p class="score">8.1</p>
+                                <p>IGN</p>
+                            </div></a>
+                            <a href="#"><div class="score-card">
+                                <p class="score">83</p>
+                                <p>Metacritic</p>
+                            </div></a>
                         </div>
                     </div>
                     <!-- Modal -->
-                    <div class="modal fade game-modal" id="game2" tabindex="-1" role="dialog" aria-labelledby="bedlam" aria-hidden="true">
+                    <div class="modal fade game-modal" id="game3" tabindex="-1" role="dialog" aria-labelledby="aurora" aria-hidden="true">
                         <div class="modal-dialog modal-lg" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h1 class="modal-title" id="bedlam">BEDLAMBORNE</h1>
+                                    <h1 class="modal-title" id="aurora">AURORA AWAKENING</h1>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
                                <div class="modal-body">
-                                   <h2 class="short-hr-left">A DARK WORLD</h2>
+                                   <iframe class="modal-vid" src="https://www.youtube.com/embed/DPBW_MFqeRs?rel=0&amp;showinfo=0" allowfullscreen></iframe>
+                                   <h2 class="short-hr-left">EXPLORE AN EXPANSIVE WORLD</h2>
                                    <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
                                    <img class="img-fluid" src="images/game_large.jpg" alt="screenshot">
                                    <br>
-                                   <h2 class="short-hr-left">ENGAGING STORY</h2>
+                                   <h2 class="short-hr-left">ADAPT AND DEVELOP YOUR CHARACTER</h2>
                                    <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
                                    <img class="img-fluid" src="images/game_large.jpg" alt="screenshot">
                                    <br>
-                                   <h2 class="short-hr-left">INTERESTING CHARACTERS</h2>
+                                   <h2 class="short-hr-left">GET IMMERSED IN A DEEP STORY</h2>
                                    <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
                                 </div>
                                 <div class="modal-footer">
@@ -363,11 +379,11 @@
                         </div>
                      </div>
                 </div><!-- Game Card End -->
-                
+
                 <!-- Game Card -->
-                <div class="row game-card mobile">
+                <div class="row game-card pc">
                     <div class="col-lg-12 col-xl-5 game-card-left">
-                        <a href="images/game_large.jpg" data-lightbox="screenshots_dark">
+                        <a href="images/game_large.jpg" data-lightbox="screenshots_aurora">
                             <div class="overlay">
                                 <i class="fa fa-picture-o fa-3x"></i>
                             </div>
@@ -377,53 +393,55 @@
                                 <img src="images/placeholder.jpg" data-src="images/game.jpg" class="img-fluid b-lazy" alt="aurora image">
                             </picture>
                         </a>
-                        <a href="images/game_large.jpg" data-lightbox="screenshots_dark"></a>
-                        <a href="images/game_large.jpg" data-lightbox="screenshots_dark"></a>
+                        <a href="images/game_large.jpg" data-lightbox="screenshots_aurora"></a>
+                        <a href="images/game_large.jpg" data-lightbox="screenshots_aurora"></a>
                     </div>
                     <div class="col-lg-12 col-xl-7 game-card-right">
-                        <h2 class="short-hr-left">ECHO - DARK ADVENTURES</h2>
-                        <p class="tags"><span class="subtle">Adventure | Mobile</span></p>
-                        <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game2">Read More</span></p>
-                        <a href="#" class="button-store">
-                            <i class="fa fa-android fa-2x"></i>
-                            <p>Available on<br><span class="strong">Google Play</span></p>
-                        </a>
-                        <a href="#" class="button-store">
-                            <i class="fa fa-apple fa-2x"></i>
-                            <p>Available on<br><span class="strong">Apple Store</span></p>
-                       </a>
-                        <div class="rating">
-                            <p class="strong">4.1</p>
-                            <ul>
-                                <li><i class="fa fa-star colored"></i></li>
-                                <li><i class="fa fa-star colored"></i></li>
-                                <li><i class="fa fa-star colored"></i></li>
-                                <li><i class="fa fa-star colored"></i></li>
-                                <li><i class="fa fa-star-o"></i></li>
-                            </ul>
+                        <h2 class="short-hr-left">AURORA AWAKENING</h2>
+                        <p class="tags"><span class="subtle">Action RPG | PC</span> </p>
+                        <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
+                        <div class="steam-btn">
+                            <a href="#">
+                                <i class="fa fa-steam fa-3x"></i>
+                                <p>GET IT ON <br><span class="spaced">STEAM</span></p>
+                            </a>
+                        </div>
+                        <div class="reviews">
+                            <a href="#"><div class="score-card">
+                                <p class="score">8.5</p>
+                                <p>Gamespot</p>
+                            </div></a>
+                            <a href="#"><div class="score-card">
+                                <p class="score">8.1</p>
+                                <p>IGN</p>
+                            </div></a>
+                            <a href="#"><div class="score-card">
+                                <p class="score">83</p>
+                                <p>Metacritic</p>
+                            </div></a>
                         </div>
                     </div>
                     <!-- Modal -->
-                    <div class="modal fade game-modal" id="game4" tabindex="-1" role="dialog" aria-labelledby="echo" aria-hidden="true">
+                    <div class="modal fade game-modal" id="game3" tabindex="-1" role="dialog" aria-labelledby="aurora" aria-hidden="true">
                         <div class="modal-dialog modal-lg" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h1 class="modal-title" id="echo">ECHO - DARK ADVENTURES</h1>
+                                    <h1 class="modal-title" id="aurora">AURORA AWAKENING</h1>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
                                <div class="modal-body">
-                                   <iframe class="modal-vid" src="https://www.youtube.com/embed/73vSguCeJl0?rel=0&amp;showinfo=0" allowfullscreen></iframe>
+                                   <iframe class="modal-vid" src="https://www.youtube.com/embed/DPBW_MFqeRs?rel=0&amp;showinfo=0" allowfullscreen></iframe>
                                    <h2 class="short-hr-left">EXPLORE AN EXPANSIVE WORLD</h2>
                                    <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
                                    <img class="img-fluid" src="images/game_large.jpg" alt="screenshot">
                                    <br>
-                                   <h2 class="short-hr-left">GET IMMERSED IN A FANTASTIC STORY</h2>
+                                   <h2 class="short-hr-left">ADAPT AND DEVELOP YOUR CHARACTER</h2>
                                    <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
                                    <img class="img-fluid" src="images/game_large.jpg" alt="screenshot">
                                    <br>
-                                   <h2 class="short-hr-left">ADAPT AND DEVELOP YOUR CHARACTER</h2>
+                                   <h2 class="short-hr-left">GET IMMERSED IN A DEEP STORY</h2>
                                    <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
                                 </div>
                                 <div class="modal-footer">
@@ -431,7 +449,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                     </div>
                 </div><!-- Game Card End -->
             </div>
         </div>

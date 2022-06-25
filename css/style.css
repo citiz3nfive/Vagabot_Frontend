@@ -318,10 +318,10 @@ button {
     color: #ababab;
 }
 .navbar-dark .navbar-nav .nav-link:active {
-    color: #E48632;
+    color: #ababab;
 }
 .navbar-dark .navbar-nav .nav-link:focus {
-    color: #E48632;
+    color: #ababab;
 }
 .navbar-toggler {
     border: none;
@@ -403,7 +403,7 @@ button {
 .game-tags {
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
     padding: 10px;
-    border-left: 2px solid #E48632;
+    border-left: 2px solid #ababab;
 }
 .game-tags li {
     display: inline;
@@ -417,10 +417,10 @@ button {
     text-decoration: none;
 }
 .game-tags li a:hover {
-    color: #E48632;
+    color: #ababab;
 }
 .game-tags li a:focus {
-    color: #E48632;
+    color: #ababab;
 }
 .game-card {
     width: 100%;
@@ -436,7 +436,7 @@ button {
     top: 0;
     left: 0;
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
-    border-left: 2px solid #E48632;
+    border-left: 2px solid #ababab;
     width: 100%;
     height: 100%;
     opacity: 0;
